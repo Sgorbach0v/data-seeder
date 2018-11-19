@@ -8,7 +8,7 @@ Hundreds of thousands of valid queries could be easily created by using this too
 1. Pick a query with one intent
 Set alarm
 2. Come up with various syntactic structures for the query
-* Set alarm
+  * Set alarm
 * Set my alarm
 * Set my alarm now
 * Set my alarm now please
