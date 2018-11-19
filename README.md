@@ -15,13 +15,14 @@ Set my alarm now please
 Please set my alarm
 ...
 3. Fill out a table with the longest query on top where one word takes one cell. Note: I used Google Sheets to enter my data
-| First element  | Second element | Third element | Fourth element | Fifth element |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| Set  | my  | alarm  | now  | please |
-| Please | set  | my  | alarm  | asd |
-| Set  | my  | alarm  | now | asd |
-| Set  | my  | alarm  | asd | asd |
-| Set  | alarm  | asd | asd | asd |
+
+| First element  | Second element   | Third element | Fourth element | Fifth element |
+| -------------  | -------------    | ------------- | -------------  | ------------- |
+| Set            | my               | alarm         | now            | please        |
+| Please         | set              | my            | alarm          | asd           |
+| Set            | my               | alarm         | now            | asd           |
+| Set            | my               | alarm         | asd            | asd           |
+| Set            | alarm            | asd           | asd            | asd           |
 
 
 | Tables        | Are           | Cool  |
