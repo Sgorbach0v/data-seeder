@@ -24,23 +24,18 @@ Set alarm
 |                | set              | my            | alarm          |               |               |
 |                | set              | alarm         |                |               |               |
 
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-
 4. Identify the least common multiples for the queries in terms of their syntactic position. It will be the root query
 | First element  | Second element |
-| Set  | alarm  |
-5.a Expand the root query by adding additional elements anywhere in the structure, so that the whole query is still correct
-5.b Everything except for the root query should me marked as optional and will be used once and then omitted when generating queries
-5.c Rename the column headers to 1, 2, 3, 4, ...
-| 1  | 2  | 3 | 4 | 5 | 6 |
-| Please  | Set  | my | alarm  | now | please |
-| optional |  | optional |  | optional | optional |
+| set            | alarm  |
+
+5.
+  5.a Expand the root query by adding additional elements anywhere in the structure, so that the whole query is still correct
+  5.b Everything except for the root query should me marked as optional and will be used once and then omitted when generating queries
+  5.c Rename the column headers to 1, 2, 3, 4, ...
+| 1         | 2     | 3          | 4      | 5        |        6 |
+| Please    | Set   | my         | alarm  | now      |   please |
+| optional  |       | optional   |        | optional | optional |
+
 6.a Expand the query by adding more elements to the structure
 6.b List the synonyms in the column
 | 1  | 2  | 3 | 4 | 5 | 6 |
@@ -49,6 +44,7 @@ Set alarm
 | Will you    |   |   |  |   |  |  |
 | Would you    |   |   |  |   |  |  |
 | optional    | optional |  | optional |  | optional | optional |
+
 7. The input data should be in .csv format. I used downloaded my Google Spreadsheet as csv and used it in the script.
 The structure of the spreadsheet should be exactly the same as in my example.
 8. The tool will iterate over all the combinations in the example and will output a csv
