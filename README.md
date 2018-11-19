@@ -28,9 +28,9 @@ Set alarm
 | First element  | Second element |
 | set            | alarm  |
 
- 5.a Expand the root query by adding additional elements anywhere in the structure, so that the whole query is still correct
- 5.b Everything except for the root query should me marked as optional and will be used once and then omitted when generating queries
- 5.c Rename the column headers to 1, 2, 3, 4, ...
+5.a Expand the root query by adding additional elements anywhere in the structure, so that the whole query is still correct
+5.b Everything except for the root query should me marked as optional and will be used once and then omitted when generating queries
+5.c Rename the column headers to 1, 2, 3, 4, ...
 
 | 1         | 2     | 3          | 4      | 5        |        6 |
 |-----------|-------|------------|--------|----------|----------|
