@@ -8,12 +8,12 @@ Hundreds of thousands of valid queries could be easily created by using this too
 1. Pick a query with one intent
 Set alarm
 2. Come up with various syntactic structures for the query
-⋅⋅* Set alarm
-⋅⋅* Set my alarm
-⋅⋅* Set my alarm now
-⋅⋅* Set my alarm now please
-⋅⋅*P lease set my alarm
-⋅⋅* ...
+* Set alarm
+* Set my alarm
+* Set my alarm now
+* Set my alarm now please
+* Please set my alarm
+* ...
 3. Fill out a table with the longest query on top where one word takes one cell. Note: I used Google Sheets to enter my data
 
 | First element  | Second element   | Third element | Fourth element | Fifth element | Sixth element |
